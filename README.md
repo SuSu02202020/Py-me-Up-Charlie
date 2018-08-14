@@ -1,1 +1,2 @@
-# python_challenge
+# python-challenge
+# homework 3 repository
