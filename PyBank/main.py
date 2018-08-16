@@ -29,7 +29,7 @@ with open (budget_csv, newline="") as csvfile:
     #print("Total Months: " + str(len(date))  
     print("Total: " + sum(profit_loss))
     print("Average Change: $" + average_change)
-    print("Greatest Increase in Profits: " + str(date[change_months.index(max(change_months)]) + "(" + great_inc_profit + ")")
-    print("Greatest Decrease in Profits: " + str(date[change_months.index(min(change_months)]) + "(" + great_dec_profit + ")")
+    print("Greatest Increase in Profits: " + (date[change_months.index(max(change_months))]) + "(" + great_inc_profit + ")")
+    print("Greatest Decrease in Profits: " + (date[change_months.index(min(change_months))]) + "(" + great_dec_profit + ")")
       
    
